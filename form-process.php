@@ -10,6 +10,7 @@ $EmailFrom = "info@webanaya.com";
 $Subject = "Helios - You have received New Enquiry";
 
 // prepare email body text
+$Body = "\n";
 $Body .= "Name: ";
 $Body .= $name;
 $Body .= "\n";
